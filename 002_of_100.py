@@ -46,3 +46,37 @@ elseif i >= 1000000
 end
 
 
+# Filename:J_002_of_100.java
+
+package one_of_100;
+import java.io.*;
+
+public class J_002_of_100 {
+	public static void main(String[] args)throws IOException{
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
+        String str = null; 
+        System.out.println("Please input I value:"); 
+        str = br.readLine();
+        int i=Integer.parseInt(str);
+		int sum = 0 ;
+			
+			if (i < 100000)
+			    sum = (int) (sum + i*0.1);
+			else if (i < 200000 )
+			    sum = (int) (sum + 10000 + (i-100000)*0.075);
+			else if (i < 400000)
+			    sum = (int) (sum + 17500 + (i-200000)*0.05);
+			else if (i < 600000)
+			    sum = (int) (sum + 27500 + (i-400000)*0.03); 
+			else if (i < 1000000)
+			    sum = (int) (sum + 33500 + (i-600000)*0.015);
+			else if (i >= 1000000)
+			    sum = (int) (sum + 39500 + (i-1000000)*0.01);
+			
+		System.out.println(sum);
+	}
+}
+
+
+

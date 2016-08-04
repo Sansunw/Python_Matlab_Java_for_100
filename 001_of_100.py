@@ -35,5 +35,24 @@ end
 % Matlab位与 bitand(a1,a2)      [   a=bitand(7,3)   a = 3  ]
 
 
+# Filename:J_001_of_100.java
+# Java 文件命名必须以字母开头
+
+package one_of_100;
+public class J_001_of_100 {
+	public static void main(String[] args){
+		int sum = 0 ;
+		for (int i = 1;i<5;i++){
+		    for ( int j = 1;j<5;j++){
+		    	for (int k = 1;k<5;k++){
+		            if (i != j && j != k && i != k)
+		                sum = sum + 1;
+		    	}
+		    }
+		}
+		System.out.println(sum);
+	}
+}
+
 
 
