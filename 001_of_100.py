@@ -1,3 +1,8 @@
+'''
+程序1】
+题目：有1、2、3、4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
+'''
+
 Filename:001_of_100.py
 cnt = 0#count the sum of result
 for i in range(1,5):
