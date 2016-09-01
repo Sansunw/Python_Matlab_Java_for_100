@@ -88,4 +88,4 @@ public class J_004_of_100 {
 
 // IO口要有  throws IOException
 Java 数组 从 0 下标开始
-Java 可以直接用 / % 求余 求商
+Java 可以直接用 / 求商  % 求余 
