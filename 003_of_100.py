@@ -40,6 +40,44 @@ while(1)
     num = num + 1 ;
 end
 
+# Filename:J_003_of_100.java
+package one_of_100;
+
+public class J_003_of_100 {
+	public static void main(String[] args){
+		int num = 154 ;
+		while(num<168){
+		    if (Math.sqrt(num + 100)-Math.floor(Math.sqrt(num + 100)) == 0 && Math.sqrt(num + 168)-Math.floor(Math.sqrt(num + 168)) == 0  ) {    
+		    	System.out.println(num);
+		    	if(num>0){						//无用嵌套，测试while
+		    		break;
+		    	}
+		    }
+		    num = num + 1 ;
+		    System.out.println(num);
+		}
+	}
+}
+执行结果：
+155
+156
+156
+
+break直接跳出来while循环
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
