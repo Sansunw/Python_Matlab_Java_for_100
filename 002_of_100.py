@@ -1,5 +1,5 @@
 
-# Filename:002.py
+# Filename:002_of_100.py
 '''
 i = int(raw_input('Enter the profit:'))
 
